@@ -1,0 +1,1 @@
+this is a file {{v1}} this is another {{dir.v2}}
