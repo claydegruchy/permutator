@@ -5,7 +5,8 @@ This script allows you to generate permutations from a template file and a set o
 ## Prerequisites
 
 *   Bash shell (Unix-like environment)
-- `jinja2-cli` [found here](https://github.com/mattrobenolt/jinja2-cli)
+* `jinja2-cli` [found here](https://github.com/mattrobenolt/jinja2-cli)
+* `yq` [found here](https://github.com/mikefarah/yq) (optional, needed for `-b`)
 
 ## Usage
 
