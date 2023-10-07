@@ -17,7 +17,7 @@ Run the script from the command line with the following options:
 *   `-t <template_file>`: The path to the template file (required).
 *   `-o <output_directory>` (optional): The directory where output folders will be created. If not provided, output folders will be created in the current directory.
 
-    ./create_permutations.sh -d /path/to/config_directory -t template.psc -o /path/to/output_directory
+    `./create_permutations.sh -d /path/to/config_directory -t template.psc -o /path/to/output_directory`
 
 ### Writing the template
 The template system using standard jinja2 templating style. So take whatever file you want and add `{{anything}}` to it. You can also take an existing file (such as a `.psc` file) and change out words or sections for `{{handlebars}}`. 
