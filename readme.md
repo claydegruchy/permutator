@@ -28,6 +28,7 @@ could be changed to
 ```
 this is my script, there are {{QUANTITY}} like it but this one is {{OWNER}}
 ```
+then saved as `my_template.txt`
 
 ### Writing the configs
 The configs are written in YAML. Just make a `.yaml` file for each permutation you'd like, then add corresponding variables matching the template (they gotta match! or it'll shit its pants)
@@ -92,7 +93,3 @@ This will create the following output structure:
             `-- template.psc
 
 Each `template.psc` file in the output folders will contain the result of running your CLI tool with the corresponding configuration file.
-
-## License
-
-This script is provided under the [MIT License](LICENSE).
