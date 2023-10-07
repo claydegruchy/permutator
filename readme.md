@@ -16,8 +16,9 @@ Run the script from the command line with the following options:
 *   `-d <config_directory>`: The directory containing your config files (required).
 *   `-t <template_file>`: The path to the template file (required).
 *   `-o <output_directory>` (optional): The directory where output folders will be created. If not provided, output folders will be created in the current directory.
+*   `-b <base_config_file>` (optional): The base configuration file that will be merged with each configuration file before applying the permutations. This allows you to apply a common base configuration to all permutations.
 
-`./create_permutations.sh -d /path/to/config_directory -t template.psc -o /path/to/output_directory`
+`./run_configs.sh -d /path/to/config_directory -t template.txt -o /path/to/output_directory -b base_config.yaml`
 
 ### Writing the template
 The template system using standard jinja2 templating style. So take whatever file you want and add `{{anything}}` to it. You can also take an existing file (such as a `.psc` file) and change out words or sections for `{{handlebars}}`. 
